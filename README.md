@@ -43,3 +43,10 @@ I designed and implemented the **data preprocessing, frequency harmonization, an
 1. Install dependencies in R:
 ```R
 install.packages(c("dplyr", "tidyr", "lubridate", "jsonlite", "readxl", "ggplot2"))
+```
+2. Unzip `swiss_nowcast_data.zip` inside the `data/` folder so `swiss_nowcast_data.json` is available.
+3. Run any pipeline script from the root folder:
+```R
+source("src/GDP matrix.R")
+```
+
